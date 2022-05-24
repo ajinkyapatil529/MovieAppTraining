@@ -1,0 +1,30 @@
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.deps.json
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.dll
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.pdb
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Data.dll
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Entity.dll
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Data.pdb
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Entity.pdb
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.AssemblyReference.cache
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.AssemblyInfoInputs.cache
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.AssemblyInfo.cs
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.CoreCompileInputs.cache
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.CopyComplete
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.dll
+G:\IKS Training\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.pdb
+G:\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.deps.json
+G:\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.dll
+G:\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.pdb
+G:\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Data.dll
+G:\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Entity.dll
+G:\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Data.pdb
+G:\MovieCoreApllication\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Entity.pdb
+G:\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.AssemblyReference.cache
+G:\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+G:\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.AssemblyInfoInputs.cache
+G:\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.AssemblyInfo.cs
+G:\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.CoreCompileInputs.cache
+G:\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.CopyComplete
+G:\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.dll
+G:\MovieCoreApllication\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.pdb
