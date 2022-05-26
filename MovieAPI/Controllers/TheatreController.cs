@@ -30,7 +30,7 @@ namespace MovieAPI.Controllers
         {
             return Ok(_theatreServices.AddTheatre(theatreModel));
         }
-
+        [HttpDelete]
         public IActionResult DeleteTheatre(int ID)
         {
             return Ok(_theatreServices.DeleteTheatre(ID));
