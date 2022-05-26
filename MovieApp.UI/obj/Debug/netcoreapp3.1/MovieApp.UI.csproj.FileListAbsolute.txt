@@ -93,12 +93,12 @@ G:\IKS Training\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieAp
 G:\IKS Training\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.dll
 G:\IKS Training\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.pdb
 G:\IKS Training\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.genruntimeconfig.cache
-G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
-G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\appsettings.json
 G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.deps.json
 G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.runtimeconfig.json
 G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.runtimeconfig.dev.json
 G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.exe
+G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\appsettings.json
 G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.exe
 G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.deps.json
 G:\MovieCoreApllication\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.runtimeconfig.json
