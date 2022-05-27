@@ -299,6 +299,9 @@
               "G:\\MovieCoreApllication\\MovieAPI\\MovieAPI.csproj": {
                 "projectPath": "G:\\MovieCoreApllication\\MovieAPI\\MovieAPI.csproj"
               },
+              "G:\\MovieCoreApllication\\MovieApp.Data\\MovieApp.Data.csproj": {
+                "projectPath": "G:\\MovieCoreApllication\\MovieApp.Data\\MovieApp.Data.csproj"
+              },
               "G:\\MovieCoreApllication\\MovieApp.Entity\\MovieApp.Entity.csproj": {
                 "projectPath": "G:\\MovieCoreApllication\\MovieApp.Entity\\MovieApp.Entity.csproj"
               }
@@ -314,6 +317,26 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
