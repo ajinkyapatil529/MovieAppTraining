@@ -23,7 +23,7 @@ namespace MovieApp.UI.Controllers
         {
             using (HttpClient client = new HttpClient())
             {
-                string endpint = _configuration["WebApiURL"] + "Movie/SelectMovie";
+                string endpint = _configuration["WebApiUrl"] + "Movie/SelectMovie";
                 using (var response = await client.GetAsync(endpint))
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
@@ -47,7 +47,7 @@ namespace MovieApp.UI.Controllers
         public async Task<IActionResult> AddMovie(MovieModel movieModel)
         {
             StringContent body = new StringContent(JsonConvert.SerializeObject(movieModel), Encoding.UTF8, "application/json");
-            string endpoint = _configuration["WebApiURL"] + "Movie/AddMovie";
+            string endpoint = _configuration["WebApiUrl"] + "Movie/AddMovie";
             using (HttpClient httpClient = new HttpClient())
             {
                 using (var response = await httpClient.PostAsync(endpoint, body))

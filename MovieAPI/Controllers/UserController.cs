@@ -17,12 +17,12 @@ namespace MovieApp.UI.Controllers
             _userService = userServices;
         }
 
-        [HttpGet]
+        [HttpGet("SelectUsers")]
         public IActionResult SelectUser()
         {
             return Ok(_userService.SelectUser());
         }
-        [HttpPost]
+        [HttpPost("Register")]
         public IActionResult Register(UserModel userModel)
         {
             return Ok(_userService.Register(userModel));

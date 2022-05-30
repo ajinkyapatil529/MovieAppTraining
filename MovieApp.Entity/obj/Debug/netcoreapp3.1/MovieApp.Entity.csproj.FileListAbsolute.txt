@@ -17,4 +17,3 @@ G:\MovieCoreApllication\MovieApp.Entity\obj\Debug\netcoreapp3.1\MovieApp.Entity.
 G:\MovieCoreApllication\MovieApp.Entity\obj\Debug\netcoreapp3.1\MovieApp.Entity.csproj.CoreCompileInputs.cache
 G:\MovieCoreApllication\MovieApp.Entity\obj\Debug\netcoreapp3.1\MovieApp.Entity.dll
 G:\MovieCoreApllication\MovieApp.Entity\obj\Debug\netcoreapp3.1\MovieApp.Entity.pdb
-G:\MovieCoreApllication\MovieApp.Entity\obj\Debug\netcoreapp3.1\MovieApp.Entity.csproj.AssemblyReference.cache
