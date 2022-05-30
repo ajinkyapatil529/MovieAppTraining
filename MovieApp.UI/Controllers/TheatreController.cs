@@ -24,9 +24,9 @@ namespace MovieApp.UI.Controllers
             using (HttpClient client = new HttpClient())
             {
                 string endPoint = _iConfiguration["WebApiUrl"] + "Theatre/Select";
-                using(var response = await client.GetAsync(endPoint))
+                using (var response = await client.GetAsync(endPoint))
                 {
-                    if(response.StatusCode == System.Net.HttpStatusCode.OK)
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
                         string data = await response.Content.ReadAsStringAsync();
                         var theatreModel = JsonConvert.DeserializeObject<List<TheatreModel>>(data);
@@ -68,20 +68,30 @@ namespace MovieApp.UI.Controllers
             }
         }
         [HttpPost]
-        public async Task<IActionResult> DeleteTheatre(int id)
+        public async Task<IActionResult> DeleteTheatre(TheatreModel theatreModel)
         {
-            string endpoint = _iConfiguration["WebApiUrl"] + "Theatre/DeleteTheatre?id=" + id;
+            ViewBag.status = "";
+
             using (HttpClient client = new HttpClient())
             {
-                using (var response = await client.DeleteAsync(endpoint))
+
+                string endPoint = _iConfiguration["WebApiUrl"] + "Theatre/DeleteTheatre?theatreId=" + theatreModel.TheatreId;
+                using (var response = await client.DeleteAsync(endPoint))
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
                         return RedirectToAction("ShowTheatre", "Theatre");
                     }
+                    else
+                    {
+                        ViewBag.status = "Error";
+                        ViewBag.message = "Wrong Entries";
+                    }
+
                 }
             }
-            return RedirectToAction("ShowTheatre", "Theatre");
+            return View();
         }
+
     }
 }
