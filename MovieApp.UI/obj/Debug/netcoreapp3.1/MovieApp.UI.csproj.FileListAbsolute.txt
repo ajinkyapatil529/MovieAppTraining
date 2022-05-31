@@ -238,9 +238,14 @@ G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.RazorCor
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Index.cshtml.g.cs
+G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\AddMovie.cshtml.g.cs
+G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\ShowMovies.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\AddTheatre.cshtml.g.cs
+G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\DeleteTheatre.cshtml.g.cs
+G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\ShowTheatre.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\User\RegisterUser.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\User\ShowUserDetails.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -252,8 +257,3 @@ G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.csproj.C
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.dll
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.pdb
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.genruntimeconfig.cache
-G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\ShowMovies.cshtml.g.cs
-G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\AddMovie.cshtml.g.cs
-G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\ShowTheatre.cshtml.g.cs
-G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\AddTheatre.cshtml.g.cs
-G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\DeleteTheatre.cshtml.g.cs

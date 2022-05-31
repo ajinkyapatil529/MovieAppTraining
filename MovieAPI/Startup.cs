@@ -37,6 +37,8 @@ namespace MovieAPI
             services.AddTransient<MovieServices, MovieServices>();
             services.AddTransient<ITheatre, Theatre>();
             services.AddTransient<TheatreServices, TheatreServices>();
+            services.AddTransient<IMovieShow,MovieShow>();
+            services.AddTransient<MovieShowServices, MovieShowServices>();
             services.AddControllers();
             //services.AddSwaggerGen();
 

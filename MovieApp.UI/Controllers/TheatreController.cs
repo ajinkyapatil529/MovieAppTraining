@@ -67,6 +67,40 @@ namespace MovieApp.UI.Controllers
                 return View();
             }
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int theaterId)
+        {
+
+            using (HttpClient client = new HttpClient())
+
+            {
+               
+                string endPoint = _iConfiguration["WebApiUrl"] + "Theatre/DeleteTheatre?=" + theaterId;
+              
+                using (var response = await client.GetAsync(endPoint))
+                {
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+
+                    {
+                        //string-json results come
+                        var result = await response.Content.ReadAsStringAsync();
+
+                        //deseralize json-string to object i.e UserModel
+                        var theaterModel = JsonConvert.DeserializeObject<TheatreModel>(result);
+                        return View(theaterModel);
+                    }
+
+
+
+
+                }
+
+
+            }
+
+            return View();
+        }
         [HttpPost]
         public async Task<IActionResult> DeleteTheatre(TheatreModel theatreModel)
         {
@@ -75,7 +109,7 @@ namespace MovieApp.UI.Controllers
             using (HttpClient client = new HttpClient())
             {
 
-                string endPoint = _iConfiguration["WebApiUrl"] + "Theatre/DeleteTheatre?theatreId=" + theatreModel.TheatreId;
+                string endPoint = _iConfiguration["WebApiUrl"] + "Theatre/DeleteTheatre?=" + theatreModel.TheatreId;
                 using (var response = await client.DeleteAsync(endPoint))
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
