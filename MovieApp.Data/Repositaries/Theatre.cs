@@ -37,5 +37,22 @@ namespace MovieApp.Data.Repositaries
             return "Deleted the theatre";
 
         }
+        public TheatreModel GetTheatreById(int id)
+        {
+            var result = _movieDbContext.theatreModels.Find(id);
+            if (result == null)
+            {
+                Console.WriteLine("Id not present");
+            }
+            return result;
+        }
+        public string Update(TheatreModel theatreModel)
+        {
+            string mesg = "";
+            _movieDbContext.Update(theatreModel);
+            _movieDbContext.SaveChanges();
+            mesg = "Updated Details Successfully";
+            return mesg;
+        }
     }
 }

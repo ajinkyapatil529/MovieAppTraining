@@ -26,7 +26,16 @@ namespace MovieApp.Business.Services
         {
             return _theatre.DeleteTheatre(ID);
         }
-            
+        public string UpdateTheatre(TheatreModel theatreModel)
+        {
+            return _theatre.Update(theatreModel);
+        }
+
+        public TheatreModel GetTheatreById(int id)
+        {
+            return _theatre.GetTheatreById(id);
+        }
+
 
     }
 }

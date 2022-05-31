@@ -30,22 +30,29 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @item.TheatreId
-                </td>
-                <td>
-                    @item.Name
-                </td>
-                <td>
-                    @item.City
-                </td>
-                
-               
-                <td>
-                    <a asp-controller="Theatre" asp-action="DeleteTheatre" asp-route-TheaterId="@item.TheatreId">Delete Theatre</a>
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @item.TheatreId
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.City
+            </td>
+
+            <td><a asp-action="UpdateTheatre" asp-controller="Theatre" asp-route-TheatreId="@item.TheatreId">Edit</a></td>
+            <td>
+                <a asp-action="DeleteTheatre" asp-controller="Theatre" asp-route-TheaterId="@item.TheatreId">Delete Theatre</a>
+            </td>
+            @*<td>
+            <a asp-controller="Theatre">
+                @Html.ActionLink("Delete", "DeleteTheatre", new { id = item.TheatreId }, new { @class = "btn btn-danger" })
+            </a>
+
+        </td>*@
+
+        </tr>
         }
     </tbody>
 </table>

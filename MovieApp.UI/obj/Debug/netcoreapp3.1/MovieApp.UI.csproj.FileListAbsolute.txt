@@ -246,6 +246,7 @@ G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\AddTheatre.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\DeleteTheatre.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\ShowTheatre.cshtml.g.cs
+G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\UpdateTheatre.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\User\RegisterUser.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\User\ShowUserDetails.cshtml.g.cs
 G:\MovieCoreApllication\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
