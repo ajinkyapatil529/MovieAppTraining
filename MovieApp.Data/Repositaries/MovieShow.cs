@@ -26,5 +26,37 @@ namespace MovieApp.Data.Repositaries
             List<MovieShowModel> movieShowModels = _movieDbContext.movieShowModels.ToList();
             return movieShowModels;
         }
+
+        public string DeleteMovieShowtime(int id)
+        {
+            string mesg = "";
+            var toDelete = _movieDbContext.movieShowModels.Find(id);
+            if (toDelete == null)
+            {
+                return mesg = "Id not found";
+            }
+            _movieDbContext.movieShowModels.Remove(toDelete);
+            _movieDbContext.SaveChanges();
+            mesg = "Deleted Successfully";
+            return mesg;
+        }
+       public string UpdateMovieShowtime(MovieShowModel movieShowTimeModel)
+        {
+            string mesg = "";
+            _movieDbContext.Entry(movieShowTimeModel).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            _movieDbContext.SaveChanges();
+            mesg = "Updated successfully";
+            return mesg;
+        }
+        public MovieShowModel GetMovieShowimeById(int id)
+        {
+            return _movieDbContext.movieShowModels.Find(id);
+        }
+        public List<MovieShowModel> GetShowtimeForSpecificMovieAndTheatre(int movieId)
+        {
+            var specificShowtime = _movieDbContext.movieShowModels.Where(m => m.MovieId == movieId).ToList();
+            return specificShowtime;
+        }
+
     }
 }

@@ -21,5 +21,25 @@ namespace MovieApp.Business.Services
         {
             return _movieShow.movieShows();
         }
+
+        public string DeleteMovieShowtime(int id)
+        {
+            return _movieShow.DeleteMovieShowtime(id);
+        }
+
+        public MovieShowModel GetMovieShowimeById(int id)
+        {
+            return _movieShow.GetMovieShowimeById(id);
+        }
+
+        public List<MovieShowModel> GetShowtimeForSpecificMovieAndTheatre(int movieId)
+        {
+            return _movieShow.GetShowtimeForSpecificMovieAndTheatre(movieId);
+        }
+
+        public string UpdateMovieShowtime(MovieShowModel movieShowTimeModel)
+        {
+            return _movieShow.UpdateMovieShowtime(movieShowTimeModel);
+        }
     }
 }
